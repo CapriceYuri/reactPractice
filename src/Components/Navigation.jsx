@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
 const linkObj = [
-  { linkName: "HOME", href: "/", id: 1 },
-  { linkName: "SHOP", href: "/Shop", id: 2 },
-  { linkName: "DASH", href: "/Dash", id: 3 },
-  { linkName: "BOARD", href: "/Board", id: 4 },
+  { linkName: "HOME", href: "/reactPractice/", id: 1 },
+  { linkName: "SHOP", href: "/reactPractice/Shop/", id: 2 },
+  { linkName: "DASH", href: "/reactPractice/Dash", id: 3 },
+  { linkName: "BOARD", href: "/reactPractice/Board", id: 4 },
 ];
 
 function Navigation() {
