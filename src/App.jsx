@@ -8,10 +8,10 @@ import BoardPage from "./Pages/BoardPage";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/Dash" element={<DashPage />} />
-      <Route path="/Shop" element={<ShopPage />} />
-      <Route path="/Board" element={<BoardPage />} />
+      <Route path="/reactPractice/" element={<HomePage />} />
+      <Route path="/reactPractice/Dash" element={<DashPage />} />
+      <Route path="/reactPractice/Shop" element={<ShopPage />} />
+      <Route path="/reactPractice/Board" element={<BoardPage />} />
     </Routes>
   );
 }
